@@ -10,15 +10,20 @@ define('PROJECT_STATUS','development');
 setlocale(LC_ALL, 'nl_NL');
 
 // databasegegevens
-//define('DB_HOST','127.0.0.1');
-//define('DB_NAME','myband');
-//define('DB_USERNAME','root');
-//define('DB_PASSWORD','');
 
-    define('DB_HOST','localhost');
-    define('DB_NAME','myBand');
-    define('DB_USERNAME','root');
-    define('DB_PASSWORD','');
+    if($_SERVER['HTTP_HOST'] == 'localhost'){
+        define('DB_HOST','localhost');
+        define('DB_NAME','myBand');
+        define('DB_USERNAME','root');
+        define('DB_PASSWORD','');
+    } else {
+        define('DB_HOST','127.0.0.1');
+        define('DB_NAME','17786_myband');
+        define('DB_USERNAME','kevinm97');
+        define('DB_PASSWORD','mybandpass');
+        //kevinm97
+        //mybandpass
+    }
 
     define('NR_ITEMS_PAGE',3);
 

@@ -9,6 +9,8 @@ require_once 'includes/database.php' ;
 // Voer instellingen uit en stel template parser in
 require 'includes/bootstrap.php' ;
 
+include 'libs/functions.php';
+
 
 
 // Koppel de waarde van de paginatitel aan te smarty tag 'title'
@@ -46,9 +48,9 @@ switch ($page) {
         break;
 
 
-    case 'contact':
+    case 'about':
 
-        $templateParser->display('contact.tpl');
+        $templateParser->display('about.tpl');
 
         break;
 

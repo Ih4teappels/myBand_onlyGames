@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-10-07 13:51:26
+<?php /* Smarty version Smarty-3.1.18, created on 2015-10-09 09:15:59
          compiled from "views\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1620855f940d23aec10-81134974%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '765d62663ff840c30179c2633d916fc5606f6d1d' => 
     array (
       0 => 'views\\header.tpl',
-      1 => 1444218685,
+      1 => 1444374956,
       2 => 'file',
     ),
   ),
@@ -33,7 +33,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <li <?php if ($_smarty_tpl->tpl_vars['curr_page']->value=='') {?>class="selected"<?php }?>><a href="index.php">News</a></li>
             <li <?php if ($_smarty_tpl->tpl_vars['curr_page']->value=="tournaments") {?>class="selected"<?php }?>><a href="?page=tournaments">Tournaments</a></li>
             <li <?php if ($_smarty_tpl->tpl_vars['curr_page']->value=="socialmedia") {?>class="selected"<?php }?>><a href="?page=socialmedia">Social Media Posts</a></li>
-            <li <?php if ($_smarty_tpl->tpl_vars['curr_page']->value=="contact") {?>class="selected"<?php }?>><a href="?page=contact">Contact</a></li>
+            <li <?php if ($_smarty_tpl->tpl_vars['curr_page']->value=="about") {?>class="selected"<?php }?>><a href="?page=about">Contact</a></li>
         </ul>
 
     </div>

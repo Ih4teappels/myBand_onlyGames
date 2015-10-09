@@ -8,7 +8,7 @@
             <li {if $curr_page eq ""}class="selected"{/if}><a href="index.php">News</a></li>
             <li {if $curr_page eq "tournaments"}class="selected"{/if}><a href="?page=tournaments">Tournaments</a></li>
             <li {if $curr_page eq "socialmedia"}class="selected"{/if}><a href="?page=socialmedia">Social Media Posts</a></li>
-            <li {if $curr_page eq "contact"}class="selected"{/if}><a href="?page=contact">Contact</a></li>
+            <li {if $curr_page eq "about"}class="selected"{/if}><a href="?page=about">Contact</a></li>
         </ul>
 
     </div>
